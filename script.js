@@ -85,9 +85,7 @@ formElement.addEventListener('click', (event) => {
 		`);
 		taskListElement.append(newTask);
 
-		inputTitleElement.value = '';
-		inputDeadlineElement.value = '';
-		inputResponsibleElement.value = '';
+		formElement.reset();
 	};
 });
 
